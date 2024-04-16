@@ -1,7 +1,11 @@
 const styles = {
-  nav: 'navbar w-full flex py-6 justify-between items-center',
-  mobileUl: 'list-none sm:flex flex-1 hidden justify-end items-center',
-  li: 'font-poppins text-[16px] text-white ml-10 cursor-pointer',
+  nav: 'navbar w-full flex py-6 justify-between items-center ',
+  deskUl: 'list-none sm:flex flex-1 hidden justify-end items-center',
+  deskli:
+    'font-poppins text-[18px] text-white ml-10 cursor-pointer letterSpacing-wide ',
+  mobileUl: 'list-none flex-col justify-end items-center',
+  mobileLi:
+    'font-poppins text-[18px] text-white mb-10 cursor-pointer letterSpacing-wide ',
   menuToggle: 'sm:hidden flex flex-1 justify-end items-center',
   menuIcon: 'w-[28px] h-[28px] object-contain',
   mobileMenu:
@@ -23,7 +27,6 @@ const styles = {
   marginX: 'sm:mx-16 mx-6',
   marginY: 'sm:my-16 my-6',
 };
-
 
 
 export default styles;
