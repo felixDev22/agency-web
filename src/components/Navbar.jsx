@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import { navLinks } from '../constants/constData';
+import { navLinks } from '../constants/content';
 import styles from '../constants/styles';
 import { menu, close } from '../assets';
 
