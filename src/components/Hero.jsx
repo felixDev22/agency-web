@@ -12,6 +12,12 @@ const Hero = () => {
           <span className={`${styles.h1Gradient}`}>DIGITAL </span>
           PAYMENT<br></br>SOLUTIONS
         </h1>
+        <div className={`${styles.pWidth}`}>
+          <p className={`${styles.paragraph}`}>
+            Unlock convenience with our swift and secure digital payment
+            solutions. Say goodbye to hassle, hello to efficiency!
+          </p>
+        </div>
       </div>
       <div className={`${styles.heroImage}`}>
         <img src={heroPic} className="w-[700px] h-auto" />
