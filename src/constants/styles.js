@@ -12,10 +12,13 @@ const styles = {
     'min-w-[140px] absolute top-20 mx-4 my-2 p-6 rounded sidebar bg-black-gradient',
   containerWidth: 'xl:max-w-[1280px] w-full',
 
-  heroWrapper: 'flex md:flex-row flex-col items-center bg-slate-400 w-[580px] h=[30px]',
+  heroWrapper: 'flex md:flex-row flex-col items-center',
   heroInner: 'flex-1 flex-col xl:px-0 sm:px-15 px=5',
-  titleWrapper: 'flex flex-row justify-between items-center w-full',
+  titleWrapper: 'flex flex-row justify-between items-center w-full h-auto px-6',
+  heroImage: 'flex flex-row justify-between items-center',
 
+  h1: 'flex-1 font-poppins font-semibold ss:text-[60px] text-[50px] text-white',
+  h1Gradient: 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2',
   heading1:
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
   paragraph:
@@ -31,6 +34,5 @@ const styles = {
   marginX: 'sm:mx-16 mx-6',
   marginY: 'sm:my-16 my-6',
 };
-
 
 export default styles;
