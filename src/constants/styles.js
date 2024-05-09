@@ -12,13 +12,13 @@ const styles = {
     'min-w-[140px] absolute top-20 mx-4 my-2 p-6 rounded sidebar bg-black-gradient',
   containerWidth: 'xl:max-w-[1280px] w-full',
 
-  heroWrapper: 'flex md:flex-row flex-col items-center',
+  heroWrapper: 'flex md:flex-row flex-col justify-between items-center',
   heroInner: 'flex-1 flex-col xl:px-0 sm:px-15 px=5',
   titleWrapper: 'flex flex-col w-full h-auto px-6 l:px-6',
   heroImage: 'flex flex-row justify-between items-center',
 
   h1: 'flex-1 font-poppins font-semibold ss:text-[60px] text-[50px] text-white',
-  h1Gradient: 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2',
+  h1Gradient: 'text-gradient',
   heading1:
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
   paragraph: 'font-poppins font-normal text-white text-[18px] leading-[30.8px]',
@@ -27,10 +27,14 @@ const styles = {
   button:
     'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[180px] h-[50px] rounded-md mt-[30px]',
 
+  blurCirle:
+    'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[150px] h-[150px] rounded-[50%] blur-xl absolute ml-[-10%] mt-[-30%]',
+
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
 
-  paddingX: 'sm:px-16 px-6',
+  paddingYX: 'xl:px-2 md:px-12 sm:px-16 xl:py-28 px-6 sm:py-16 py-6',
+  paddingX: 'xl:px-2 md:px-12 sm:px-16 px-6',
   paddingY: 'sm:py-16 py-6',
   padding: 'sm:px-16 px-6 sm:py-12 py-4',
 
