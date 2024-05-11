@@ -31,10 +31,11 @@ const styles = {
     'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[150px] h-[150px] rounded-[50%] blur-xl absolute ml-[-10%] mt-[-30%]',
 
   brandSection: 'flex-row flex-wrap flex sm:mb-20 mb-b',
+  brandSpace: 'flex flex-wrap xs:flex-col xs:p-10 lg:pl-40 ',
   brandRate:
     'font-poppins sm:text-[20px] lg:text-[30px] font-semibold xs:leading-[40px] leading-[30px] xs:leading-[53px] leading-[40px] text-white',
   brandDesc:
-    'font-poppins font-normal sm:text-[20px] lg:text-[30px]  xs:leading-[40px] leading-[30px] xs:leading-[53px] leading-[40px] text-white',
+    'font-poppins font-normal sm:text-[20px] lg:text-[20px]  xs:leading-[40px] leading-[30px] xs:leading-[53px] leading-[40px] text-white',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
