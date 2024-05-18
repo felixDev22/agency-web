@@ -3,6 +3,7 @@ import React from 'react';
 import { Navbar, Hero } from './components';
 import styles from './constants/styles';
 import Info from './components/Info';
+import Features from './components/Features';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <div className={`${styles.containerWidth}`}>
           <Hero />
           <Info />
+          <Features/>
         </div>
       </div>
 
