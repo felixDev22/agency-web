@@ -21,6 +21,8 @@ const styles = {
   h1Gradient: 'text-gradient',
   heading1:
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
+  heading2:
+    'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[66px] leading-[66px] w-full',
   paragraph: 'font-poppins font-normal text-white text-[18px] leading-[30.8px]',
   pWidth: 'w-[450px] md:w-[600px] pb-[20px]',
 
@@ -35,12 +37,19 @@ const styles = {
   brandRate:
     'font-poppins xs:text-[20px] sm:text-[30px] lg:text-[30px] font-semibold xs:leading-[40px] sm:leading-[60px] xs:leading-[53px] lg:leading-[40px] text-white',
   brandDesc:
-    'font-poppins font-normal sm:text-[20px] lg:text-[20px]  xs:leading-[10px] lg:leading-[36px] xs:leading-[53px] leading-[40px] text-white',
+    'font-poppins font-normal sm:text-[20px] lg:text-[20px]  xs:leading-[10px] lg:leading-[36px] text-white',
+
+  card: 'flex md:flex-row flex-col',
+  cardReverse: 'flex md:flex-row flex-col-reverse',
+  cardImg: 'flex-1 flex md:ml-10 ml-0 md:mt-0 mt-10 relative',
+  cardDetails: 'flex-1 flex-col',
+
+  imgReverse: 'flex-1 flex md:mr-10 mr-0 md:mt-0 mt-10 relative',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
 
-  paddingYX: 'xl:px-2 md:px-12 sm:px-16 xl:py-28 px-6 sm:py-16 py-6',
+  paddingYX: 'xl:px-2 xl:py-28 md:px-12 px-6 sm:py-16 sm:px-16',
   paddingX: 'xl:px-2 md:px-12 sm:px-16 px-6',
   paddingY: 'sm:py-16 py-6',
   padding: 'sm:px-16 px-6 sm:py-12 py-4',
