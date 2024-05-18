@@ -22,13 +22,13 @@ const styles = {
   heading1:
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
   heading2:
-    'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[66px] leading-[66px] w-full',
+    'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[50px] leading-[60px] w-full mt-10',
   paragraph:
     'font-poppins font-normal text-white text-[18px] leading-[30.8px] mt-5',
   pWidth: 'max-w-[450px] md:w-[600px] pb-[20px]',
 
   button:
-    'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-poppins font-medium text-white text-[16px] py-4 px-4 rounded-md mt-[30px]',
+    'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-poppins font-medium text-white text-[16px] py-4 px-4 rounded-md mt-[20px]',
 
   blurCirle:
     'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[150px] h-[150px] rounded-[50%] blur-xl absolute ml-[-10%] mt-[-30%]',
