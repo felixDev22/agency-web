@@ -22,7 +22,7 @@ const styles = {
   heading1:
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
   heading2:
-    'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[50px] leading-[60px] w-full mt-10',
+    'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[50px] leading-[60px] w-full',
   paragraph:
     'font-poppins font-normal text-white text-[18px] leading-[30.8px] mt-5',
   pWidth: 'max-w-[450px] md:w-[600px] pb-[20px]',
@@ -34,7 +34,7 @@ const styles = {
     'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[150px] h-[150px] rounded-[50%] blur-xl absolute ml-[-10%] mt-[-30%]',
 
   brandSection: 'flex-row flex-wrap flex sm:mb-20',
-  brandSpace: 'xs:flex-col xs:p-10 sm:pl-30 lg:pl-40 ',
+  brandSpace: 'xs:flex-col xs:p-10 sm:pl-30 lg:pl-40',
   brandRate:
     'font-poppins xs:text-[20px] sm:text-[30px] lg:text-[30px] font-semibold xs:leading-[40px] sm:leading-[60px] xs:leading-[53px] lg:leading-[40px] text-white',
   brandDesc:
@@ -42,7 +42,7 @@ const styles = {
 
   card: 'flex md:flex-row flex-col',
   cardReverse: 'flex md:flex-row flex-col-reverse',
-  cardImg: 'flex-1 flex md:ml-10 ml-0 md:mt-0 mt-10 relative',
+  cardImg: 'flex-col flex-1 flex  md:ml-10 ml-0 md:mt-0 mt-10 relative',
   cardDetails: 'flex-1 flex-col',
 
   imgReverse: 'flex-1 flex md:mr-10 mr-0 md:mt-0 mt-10 relative',
