@@ -3,12 +3,12 @@ import { bizMan } from '../assets';
 
 const About = () => {
   return (
-    <section className={`${styles.card}`}>
-      <div className="w-50% h-50%">
+    <section className={`${styles.card} ${styles.paddingYX} `}>
+      <div className={`${styles.cardImg} w-500px h-auto`}>
         <img src={bizMan} className="w-[60%] h-[60%] object-contain" />
       </div>
-      <div>
-        <h1 className={`${styles.heading2}`}>
+      <div className={`${styles.cardDetails}`}>
+        <h1 className={`${styles.heading2}}`}>
           Why our products<br></br>are different
         </h1>
         <p className={`${styles.paragraph}  ${styles.cardDetails}`}>
