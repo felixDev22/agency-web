@@ -3,7 +3,7 @@ import { phone } from '../assets';
 
 const About = () => {
   return (
-    <section className={`${styles.card} ${styles.paddingYX}`}>
+    <section id="about" className={`${styles.cardReverse} ${styles.paddingYX}`}>
       <div className={`${styles.cardImg} w-500px h-auto`}>
         <img src={phone} className="w-[90%] h-[90%] object-contain" />
       </div>
