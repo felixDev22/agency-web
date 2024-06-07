@@ -25,6 +25,8 @@ const styles = {
     'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[50px] leading-[60px] w-full',
   paragraph:
     'font-poppins font-normal text-white text-[18px] leading-[30.8px] mt-5',
+  pbold: 'font-poppins font-bold text-white text-[20px] leading-[30.8px] mt-5',
+
   pWidth: 'max-w-[450px] md:w-[600px] pb-[20px]',
 
   button:
@@ -41,9 +43,12 @@ const styles = {
     'font-poppins font-normal sm:text-[20px] lg:text-[20px]  xs:leading-[10px] lg:leading-[36px] text-white',
 
   card: 'flex md:flex-row flex-col',
+  cardBorder: 'flex flex-row p-6 rounded',
   cardReverse: 'flex md:flex-row flex-col-reverse',
   cardImg: 'flex-col flex-1 flex  md:ml-10 ml-0 md:mt-0 mt-10 relative',
   cardDetails: 'flex-1 flex-col',
+
+  box: 'w-20px h-20px rounded bg-black-gradient p-4 mt-8',
 
   imgReverse: 'flex-1 flex md:mr-10 mr-0 md:mt-0 mt-10 relative',
 
