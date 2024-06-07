@@ -17,15 +17,21 @@ const styles = {
   titleWrapper: 'w-full h-auto px-6 l:px-6',
   heroImage: 'flex flex-row justify-between items-center',
 
-  h1: 'flex-1 font-poppins font-semibold ss:text-[60px] text-[50px] text-white',
+  h1: 'flex-1 font-poppins font-semibold ss:text-[60px] text-[50px] text-white xs:leading-[76.8px] leading-[66.8px]',
+
   h1Gradient: 'text-gradient',
+
   heading1:
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
   heading2:
     'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[50px] leading-[60px] w-full',
   paragraph:
     'font-poppins font-normal text-white text-[18px] leading-[30.8px] mt-5',
-  pbold: 'font-poppins font-bold text-white text-[20px] leading-[30.8px] mt-5',
+
+  textspace:
+    'font-poppins font-normal text-white text-[18px] tracking-[0.19rem]',
+
+  pbold: 'font-poppins font-bold text-white text-[18px] leading-[30.8px]',
 
   pWidth: 'max-w-[450px] md:w-[600px] pb-[20px]',
 
@@ -48,7 +54,7 @@ const styles = {
   cardImg: 'flex-col flex-1 flex  md:ml-10 ml-0 md:mt-0 mt-10 relative',
   cardDetails: 'flex-1 flex-col',
 
-  box: 'w-20px h-20px rounded bg-black-gradient p-4 mt-8',
+  box: 'w-20px h-20px rounded bg-black-gradient p-4 mt-8 border-s-4 border-indigo-500',
 
   imgReverse: 'flex-1 flex md:mr-10 mr-0 md:mt-0 mt-10 relative',
 
