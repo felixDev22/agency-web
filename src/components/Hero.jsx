@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section id="home" className={`${styles.heroWrapper} ${styles.paddingYX}`}>
       <div className={`${styles.titleWrapper}`}>
-        <p className={`text-purple-400 ${styles.paragraph}`}>
+        <p className={`text-purple-400 ${styles.textspace}`}>
           CONVENIENT, SECURE AND REWARDING
         </p>
         <h1 className={`${styles.h1}`}>
