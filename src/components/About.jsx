@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className={`${styles.card} ${styles.paddingYX}`}>
       <div className={`${styles.cardImg} w-500px h-auto`}>
-        <img src={phone} className="w-[70%] h-[70%] object-contain" />
+        <img src={phone} className="w-[90%] h-[90%] object-contain" />
       </div>
       <div className={`${styles.cardDetails}`}>
         <h1 className={`${styles.heading2}}`}>
