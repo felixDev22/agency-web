@@ -56,6 +56,8 @@ const styles = {
 
   box: 'w-20px h-20px rounded bg-black-gradient p-4 mt-8 border-s-4 border-indigo-500',
 
+  box2: 'w-20px h-20px rounded bg-black-gradient p-8 mt-8 border-s-4 border-indigo-500',
+
   imgReverse: 'flex-1 flex md:mr-10 mr-0 md:mt-0 mt-10 relative',
 
   flexCenter: 'flex justify-center items-center',
