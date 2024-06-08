@@ -3,19 +3,17 @@ import { services } from '../constants/content';
 
 const Services = () => {
   return (
-    <section
-      id="services"
-      className={`${styles.flexCenter} ${styles.paddingYX}`}>
-      <h2>
+    <section id="services" className={`${styles.flex} ${styles.padding}`}>
+      <h2 className={`${styles.heading2} mb-8`}>
         Our services are designed for<br></br>businesses of all sizes
       </h2>
-      <div className="w-300px h-450px">
+      <div className="w-300px h-300px flex md:flex-row flex-col gap-8">
         {services.map((service, index) => (
           <div key={index}>
-            <img src={service.image} className="w-50% h-auto object-contain" />
             <div>
-              <p className="pbold">{service.title}</p>
+              <p className={`${styles.pbold}`}>{service.title}</p>
             </div>
+            <img src={service.image} className="rounded-[20px] " />
           </div>
         ))}
       </div>
