@@ -12,23 +12,24 @@ const About = () => {
           Why our products<br></br>are different
         </h1>
         <p className={`${styles.paragraph}  ${styles.cardDetails}`}>
-          Unlock convenience with our swift and secure digital payment
-          solutions. Say goodbye to hassle, hello to efficiency!
+          Discover the unique advantages of our digital payment solutions,
+          <br></br>designed to enhance security, efficiency, and customer
+          satisfaction.
         </p>
         <div className="flex md:flex-row flex-col gap-2 md:gap-4">
-          <div className="w-20px h-20px rounded bg-black-gradient p-8 mt-8 ">
+          <div className={`${styles.box2}`}>
             <h4 className="text-white">
-              Manage your<br></br>Finances
+              Enhanced <br></br>Security
             </h4>
           </div>
-          <div className="w-20px h-20px rounded bg-black-gradient p-8 mt-8 ">
+          <div className={`${styles.box2}`}>
             <h4 className="text-white">
-              Manage your<br></br>Finances
+              24/7 <br></br>Support
             </h4>
           </div>
-          <div className="w-20px h-20px rounded bg-black-gradient p-8 mt-8 ">
+          <div className={`${styles.box2}`}>
             <h4 className="text-white">
-              Manage your<br></br>Finances
+              User-Friendly<br></br> Interface
             </h4>
           </div>
         </div>
