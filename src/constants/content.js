@@ -1,3 +1,5 @@
+import { smes, startUp, bigBiz } from '../assets/index';
+
 export const navLinks = [
   {
     id: 'about',
@@ -63,6 +65,27 @@ export const About = [
   {
     id: 3,
     title: 'User-Friendly Interface:',
+    desc: 'Easy-to-use platform designed for a seamless user experience.',
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    image: smes,
+    title: 'Small business',
+    desc: 'Our dedicated customer support team is available around the clock to assist you.',
+  },
+  {
+    id: 2,
+    image: startUp,
+    title: 'Start-Ups',
+    desc: 'Our top-tier security protocols ensure your transactions are safe and protected from fraud.',
+  },
+  {
+    id: 3,
+    image: bigBiz,
+    title: 'Enterprenuer',
     desc: 'Easy-to-use platform designed for a seamless user experience.',
   },
 ];
