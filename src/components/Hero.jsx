@@ -28,7 +28,7 @@ const Hero = () => {
         </button>
       </div>
       <div className={`${styles.heroImage}`}>
-        <img src={bizMan} className="w-[100%] h-[100%] relative" />
+        <img src={bizMan} className="w-[150%] h-[150%] relative" />
         <div className={`${styles.blurCirle}`}></div>
       </div>
     </section>
