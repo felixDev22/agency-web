@@ -8,6 +8,7 @@ import applestore from './AppStore.png';
 import smes from './Biz-Woman.png';
 import startUp from './StartUp.png';
 import bigBiz from './big-biz.png';
+import Epay from './Epay-logo.png';
 
 export {
   menu,
@@ -20,4 +21,5 @@ export {
   smes,
   startUp,
   bigBiz,
+  Epay,
 };
