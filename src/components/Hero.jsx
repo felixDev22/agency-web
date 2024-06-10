@@ -23,12 +23,12 @@ const Hero = () => {
           </p>
         </div>
         <button
-          className={`${styles.button}  flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105`}>
+          className={`${styles.button}  flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105 mb-12`}>
           Read More <MdArrowForward />
         </button>
       </div>
       <div className={`${styles.heroImage}`}>
-        <img src={bizMan} className="w-[150%] h-[150%] relative" />
+        <img src={bizMan} className="w-[150%] h-[150%] relative mb-5" />
         <div className={`${styles.blurCirle}`}></div>
       </div>
     </section>

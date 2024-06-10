@@ -2,14 +2,14 @@
 import React, { useState } from 'react';
 import { navLinks } from '../constants/content';
 import styles from '../constants/styles';
-import { menu, close } from '../assets';
+import { menu, close, Epay } from '../assets';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className={`${styles.nav}`}>
-      <h3 className="text-white font-bold text-[32px]">Dooh</h3>
+      <img src={Epay} className='w-[100px] h-[30px] object-contain mt-4'  />
       <ul className={`${styles.deskUl}`}>
         {navLinks.map((nav, index) => (
           <li
