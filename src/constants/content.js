@@ -89,3 +89,38 @@ export const services = [
     desc: 'Easy-to-use platform designed for a seamless user experience.',
   },
 ];
+
+
+export const footer = [
+  {
+    title: 'Custome Care',
+    link: 'https://www.doohapp.com',
+  },
+  {
+    title: 'Our Services',
+    link: 'https://www.doohapp.com/services',
+  },
+  {
+    title: 'Products',
+    link: 'https://www.doohapp.com/products',
+  },
+];
+
+export const Support = [
+  {
+    title: 'Newsletter',
+    link: 'https://www.epay.com/newsletter',
+  },
+  {
+    title: 'Contact Us',
+    desc: 'Whether you have questions about our services or need assistance, feel free to reach out.',
+    // Email: 'support@yourwebsite.com',
+    Phone: 1-800-123-4567,
+    Address: '123 Payment Blvd, Suite 100, Fintech City, FT 12345'
+  },
+  {
+    title: 'Products',
+    link: 'https://www.epay.com/products',
+  },
+];
+
