@@ -9,10 +9,10 @@ function SignUp() {
   });
 
   const handleChange = (e) => {
-    const { email, value } = e.target;
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [email]: value,
+      [name]: value,
     });
   };
 
@@ -45,9 +45,9 @@ function SignUp() {
               />
               <input
                 type="text"
-                name="firstName"
-                id="firstName"
-                value={formData.firstName}
+                name="firstname"
+                id="firstname"
+                value={formData.firstname}
                 onChange={handleChange}
                 placeholder="First Name"
                 className={`${styles.input}`}
@@ -60,9 +60,8 @@ function SignUp() {
               value={formData.email}
               onChange={handleChange}
               placeholder="Email"
-              className={`${styles.input}`}
+              className={`${styles.input} mt-2`}
             />
-
             <div className="flex items-center justify-between">
               <button
                 type="submit"
