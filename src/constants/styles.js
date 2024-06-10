@@ -62,6 +62,9 @@ const styles = {
 
   hoverScale: 'transition-transform duration-300 hover:scale-110',
 
+  input:
+    'bg-transparent border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline mb-4',
+
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
 
