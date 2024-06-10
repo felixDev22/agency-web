@@ -3,7 +3,6 @@ import styles from '../constants/styles';
 import Button from './Button';
 import { FeatureCard } from './featureCard';
 
-
 const Features = () => {
   return (
     <section id="products" className={`${styles.card} ${styles.paddingYX} `}>
@@ -15,7 +14,7 @@ const Features = () => {
         <div className={styles.pWidth}>
           <p className={styles.paragraph}>
             Unlock seamless transactions and boost efficiency with our reliable
-            payment syst.em designed for your business needs.
+            payment system designed for your business needs.
           </p>
         </div>
         <Button prop={'learn more'} />

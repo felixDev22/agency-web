@@ -5,8 +5,7 @@ import styles from './constants/styles';
 import Info from './components/Info';
 import Features from './components/Features';
 import About from './components/About';
-
-
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -23,6 +22,7 @@ const App = () => {
           <Info />
           <Features />
           <About />
+          <Services />
         </div>
       </div>
 

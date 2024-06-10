@@ -12,7 +12,9 @@ const Navbar = () => {
       <h3 className="text-white font-bold text-[32px]">Dooh</h3>
       <ul className={`${styles.deskUl}`}>
         {navLinks.map((nav, index) => (
-          <li className={`${styles.deskli}`} key={index}>
+          <li
+            className={`${styles.deskli} hover:border-b-4 hover:border-indigo-500 p-2`}
+            key={index}>
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
