@@ -3,7 +3,7 @@ import { services } from '../constants/content';
 
 const Services = () => {
   return (
-    <section id="services" className={`${styles.flex} ${styles.padding}`}>
+    <section id="services" className={`${styles.flex} ${styles.padding} mt-20`}>
       <h2 className={`${styles.heading2} mb-8`}>
         Our services are designed for<br></br>businesses of all sizes
       </h2>

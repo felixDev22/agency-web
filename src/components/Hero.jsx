@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
         </div>
         <button
-          className={`${styles.button}  flex items-center justify-center gap-2`}>
+          className={`${styles.button}  flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105`}>
           Read More <MdArrowForward />
         </button>
       </div>
