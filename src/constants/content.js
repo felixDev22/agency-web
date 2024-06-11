@@ -115,10 +115,12 @@ export const footerLinks = [
 
 export const Supports = [
   {
+    id: 1,
     title: 'Newsletter',
     link: 'https://www.epay.com/newsletter',
   },
   {
+    id: 2,
     title: 'Contact Us',
     desc: 'Whether you have questions about our services or need assistance, feel free to reach out.',
     // Email: 'support@yourwebsite.com',
@@ -126,6 +128,7 @@ export const Supports = [
     Address: '123 Payment Blvd, Suite 100, Fintech City, FT 12345',
   },
   {
+    id: 3,
     title: 'Products',
     link: 'https://www.epay.com/products',
   },
