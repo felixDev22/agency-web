@@ -22,14 +22,19 @@ const Hero = () => {
             solutions. Say goodbye to hassle, hello to efficiency!
           </p>
         </div>
-        <button
-          className={`${styles.button}  flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105 mb-12`}>
-          Read More <MdArrowForward />
-        </button>
+
+        <div className='flex'>
+          <a
+            href="#about"
+            className={`${styles.button} flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105 mb-12`}>
+            Read More <MdArrowForward />
+          </a>
+        </div>
       </div>
+
       <div className={`${styles.heroImage}`}>
         <img src={bizMan} className="w-[150%] h-[150%] relative mb-5" />
-        <div className={`${styles.blurCirle}`}></div>
+        {/* <div className={`${styles.blurCirle}`}></div> */}
       </div>
     </section>
   );
