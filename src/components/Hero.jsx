@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
       <div className={`${styles.heroImage}`}>
         <img src={bizMan} className="w-[150%] h-[150%] relative mb-5" />
-        <div className={`${styles.blurCirle}`}></div>
+        {/* <div className={`${styles.blurCirle}`}></div> */}
       </div>
     </section>
   );
