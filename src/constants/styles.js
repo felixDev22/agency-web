@@ -25,8 +25,12 @@ const styles = {
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[60px] w-full',
   heading2:
     'font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[50px] w-full',
+
   paragraph:
     'font-poppins font-normal text-white text-[18px] leading-[30.8px] mt-5',
+
+  paragraph2:
+    'font-poppins font-normal text-white text-[15px] leading-[30.8px] mt-5',
 
   textspace:
     'font-poppins font-normal text-white s:text-[8px] text-[18px] tracking-[0.19rem]',
