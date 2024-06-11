@@ -7,6 +7,7 @@ import Features from './components/Features';
 import About from './components/About';
 import Services from './components/Services';
 import SignUp from './components/SignUp';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -25,12 +26,7 @@ const App = () => {
           <About />
           <Services />
           <SignUp />
-        </div>
-      </div>
-
-      <div className={` bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.containerWidth}`}>
-          stats business billing CardDeal Testimonials client create footer
+          <Footer/>
         </div>
       </div>
     </div>

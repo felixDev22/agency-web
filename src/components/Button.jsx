@@ -2,6 +2,7 @@
 import styles from '../constants/styles';
 import { MdArrowForward } from 'react-icons/md';
 
+// eslint-disable-next-line react/prop-types
 const Button = ({prop}) => {
   return (
     <button
