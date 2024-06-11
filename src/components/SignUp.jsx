@@ -21,7 +21,7 @@ function SignUp() {
   };
 
   return (
-    <section className={`${styles.card} ${styles.padding}`}>
+    <section id="sign-up" className={`${styles.card} ${styles.padding}`}>
       <div className={`${styles.cardDetails}`}>
         <h2 className={`${styles.heading2}`}>Sign Up</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
